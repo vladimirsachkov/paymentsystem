@@ -74,6 +74,8 @@ public class AccountThreadRunnerImpl implements AccountThreadRunner {
             };
         }
 
+        accountList.showAccounts();
+
         return accountList;
     }
 
