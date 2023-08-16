@@ -25,11 +25,11 @@ public class AccountList {
 
     //Минимальное колличество счетов.
     @Value("4")
-    private final int minSize = 4;
+    private int minSize;
 
     //Мксимальное колличество счетов.
     @Value("20")
-    private final int maxSize = 20;
+    private int maxSize;
 
     @Value("10000")
     private double defaultMoney;
